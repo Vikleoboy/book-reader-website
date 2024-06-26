@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Axiom Book Reader",
-  description: "Axiom Book Reader Website",
+  title: "Axiom Book Reader Features",
+  description: "Axiom Book Reader Website Features",
 };
 
 export default function RootLayout({
@@ -13,7 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
