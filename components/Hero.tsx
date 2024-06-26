@@ -5,15 +5,13 @@ import library1 from "../public/im.png";
 
 const Hero = () => {
   return (
-    <main className="bg-gray-200 flex flex-col justify-center items-center pt-24 relative">
+    <main className=" bg-neutral-200/60 flex flex-col justify-center items-center pt-24 relative">
       <Image src={iconBook} alt="book icon" quality={100} />
-      <p className="text-black  leading-relaxed text-2xl font-semibold">
-        Axiom Books
-      </p>
-      <h1 className="text-6xl text-center lg:w-[40vw] text-center font-bold lg:leading-[80px] pt-1">
+      <p className="text-black  leading-relaxed text-3xl mt-4">Axiom Books</p>
+      <h1 className="lg:text-[80px] sm:text-4xl sm:w-[60vw] text-center lg:w-[48vw] text-center font-bold lg:leading-[80px] pt-1">
         Read, discover, set goals. All in one place.
       </h1>
-      <p className="text-2xl text-center text-gray-600 font-normal leading-normal lg:w-[55vw] mt-10">
+      <p className="text-2xl text-center text-gray-800 font-normal leading-normal lg:w-[38vw] mt-10">
         Axiom Books is the single destination for all the books you love — and
         all the ones you’ll love next. Browse the Book Store to find the perfect
         book to read. Track what you’ve read and want to read, and set your own
