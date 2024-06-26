@@ -30,7 +30,7 @@ const Navbar = () => {
               <li className=" flex">
                 <a
                   href={items.link}
-                  className="text-black text-sm leading-none font-normal tracking-[-0.12px] hover:font-semibold  transition-all"
+                  className="text-gray-600 text-sm leading-none font-normal tracking-[-0.12px] hover:font-semibold  transition-all"
                 >
                   {items.name}
                 </a>

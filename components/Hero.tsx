@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import iconBook from "../public/icon_books_large.png";
-import library1 from "../public/library.png";
+import library1 from "../public/im.png";
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
         alt="library page review"
         placeholder="blur"
         quality={100}
-        className="w-[60%] mt-20 rounded-t-3xl"
+        className="w-[80%] as mt-20 rounded-t-3xl"
       />
     </main>
   );
