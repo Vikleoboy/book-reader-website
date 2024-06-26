@@ -28,7 +28,10 @@ const Navbar = () => {
           {navItems.map((items, idx: number) => (
             <ul key={`link=${idx}`}>
               <li className=" flex">
-                <a href={items.link} className="text-black text-sm leading-none font-normal tracking-[-0.12px] hover:font-semibold  transition-all">
+                <a
+                  href={items.link}
+                  className="text-black text-sm leading-none font-normal tracking-[-0.12px] hover:font-semibold  transition-all"
+                >
                   {items.name}
                 </a>
               </li>
@@ -65,9 +68,18 @@ const Navbar = () => {
           </div>
 
           {toggleMenu ? (
-            <IoClose size={30} color="#000000" onClick={() => settoggleMenu(false)} className="z-[999] absolute top-4 right-3" />
+            <IoClose
+              size={30}
+              color="#000000"
+              onClick={() => settoggleMenu(false)}
+              className="z-[999] absolute top-4 right-3"
+            />
           ) : (
-            <AiOutlineAlignLeft size={17} color="#000000" onClick={() => settoggleMenu(true)} />
+            <AiOutlineAlignLeft
+              size={17}
+              color="#000000"
+              onClick={() => settoggleMenu(true)}
+            />
           )}
 
           {toggleMenu && (
@@ -76,7 +88,10 @@ const Navbar = () => {
                 {navItems.map((items, idx: number) => (
                   <ul key={`link=${idx}`}>
                     <li className="flex  px-4 py-1 last:mb-4">
-                      <a href={items.link} className="text-[1.5rem] transition-all text-left leading-none text-black font-medium">
+                      <a
+                        href={items.link}
+                        className="text-[1.5rem] transition-all text-left leading-none text-black font-medium"
+                      >
                         {items.name}
                       </a>
                     </li>
