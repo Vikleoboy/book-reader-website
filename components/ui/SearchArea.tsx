@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaSearch } from "react-icons/fa";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
 const SearchComponent: React.FC = () => {
@@ -23,7 +22,7 @@ const SearchComponent: React.FC = () => {
 
   return (
     <div className="relative">
-      <button onClick={handleIconClick} className="">
+      <button onClick={handleIconClick}>
         <FaMagnifyingGlass />
       </button>
       {isSearchVisible && (
@@ -38,10 +37,9 @@ const SearchComponent: React.FC = () => {
               }
             }}
             onBlur={handleSearch}
-            onClick={(e) => e.stopPropagation()} // Prevent closing on input click
+            onClick={(e) => e.stopPropagation()}
             className="border-black border-b outline-none"
             placeholder="Search for books.."
-            // style={{ transitionProperty: "width, opacity" }}
           />
         </div>
       )}
