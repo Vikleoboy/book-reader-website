@@ -12,8 +12,8 @@ const Navbar = () => {
   const [toggleMenu, settoggleMenu] = useState(false);
   return (
     // Navbar
-    <nav className="h-[80vh] relative">
-      <section className="flex justify-center items-center gap-40 pt-2 bg-white w-full relative max-navsize:hidden">
+    <nav className="relative  bg-gray-100 bg-opacity-70">
+      <section className="flex justify-center items-center gap-40 pt-2  w-full relative max-navsize:hidden ">
         {/* logo */}
         <div>
           <p>
@@ -44,10 +44,6 @@ const Navbar = () => {
           <SearchArea />
         </div>
       </section>
-
-      <div className="pl-[10rem] py-2  sticky top-0 max-navsize:hidden">
-        <p className="text-2xl text-left w-fit">BookRead</p>
-      </div>
 
       {/* Mobile Nav */}
 
@@ -91,10 +87,6 @@ const Navbar = () => {
           )}
         </div>
       </section>
-
-      <div className="pl-4 py-2  sticky top-0 navsize:hidden -z-0">
-        <p className="text-2xl text-left w-fit">BookRead</p>
-      </div>
     </nav>
   );
 };
