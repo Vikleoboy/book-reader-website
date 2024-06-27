@@ -9,6 +9,7 @@ const config: Config = {
         small: "470px",
         navsize: "850px",
         desktop: "1439px",
+        largesceen: "1660px",
       },
 
       fontFamily: {},
