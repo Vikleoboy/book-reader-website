@@ -7,8 +7,9 @@ const config: Config = {
       screens: {
         xs: "360px",
         small: "470px",
-        navsize: "850px",
         medium: "730px",
+        navsize: "850px",
+        tablet: "1183px",
         desktop: "1439px",
         largesceen: "1660px",
       },
