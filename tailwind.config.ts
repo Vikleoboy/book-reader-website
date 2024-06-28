@@ -5,9 +5,11 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        xs: "320px",
+        xs: "360px",
         small: "470px",
+        medium: "730px",
         navsize: "850px",
+        tablet: "1183px",
         desktop: "1439px",
         largesceen: "1660px",
       },
