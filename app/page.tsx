@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Goal from "@/components/Goal";
-import Publish from "@/components/Publish";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
       <Hero />
       <Features />
       <Goal />
-      <Publish />
       <Footer/>
     </main>
   );
