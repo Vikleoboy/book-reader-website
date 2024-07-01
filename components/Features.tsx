@@ -7,25 +7,25 @@ import napoleon from "../public/napoleon1.png";
 
 const Features = () => {
   return (
-    <div className="pb-20">
+    <div className="pb-20" id="features">
       <FeatureSection
         img={napoleon}
-        title={"Reading Now. Your digital nightstand."}
+        title={"Your digital library, curated just for you."}
         paragraph={
-          "The Reading Now tab makes it easy to get to the right page in an instant, whether you’re immersed in a single story or bouncing between books. It’s also where you’ll find personalised recommendations based on what you’ve been reading."
+          "Customize and organize your digital library effortlessly with Axiom Books. Utilize collections to categorize your books exactly how you prefer—whether by genre, mood, or favorites. Create personalized collections for quick access whenever you desire, ensuring every book, including cherished favorites in your Finished collection, is conveniently at your fingertips."
         }
       />
 
       <FeatureSection
-        img={read}
-        title={"Your library, your way."}
+        img={library}
+        title={"So many books, so many worlds to uncover."}
         paragraph={
-          "Organise your library any way you like. With collections, every one of your books is right where you want it. Create your own collections and get to them easily at any time. You can also revisit an old favourite you’ve already read in the Finished collection."
+          "Explore a myriad of literary realms as you swipe through captivating book covers, delve into intriguing descriptions, and consider insightful reviews. Easily curate your next reading adventure by adding your chosen books to your Want to Read list, ensuring each discovery leads to a new and exciting journey through the written word."
         }
       />
       <FeatureSection
-        img={library}
-        title={"So many books, so much in store."}
+        img={read}
+        title={"Discover and Dive In: Your Gateway to a World of Books"}
         paragraph={"Swipe from book to book to see which book covers, descriptions and reviews catch your eye, then add the books you’re interested in to your Want to Read list."}
       />
       <FeatureSection
