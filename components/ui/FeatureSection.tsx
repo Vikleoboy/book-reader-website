@@ -5,7 +5,11 @@ import React from "react";
 
 const FeatureSection = ({ img, title, paragraph }: { img: StaticImageData; title: string; paragraph: string }) => {
   return (
+<<<<<<< Updated upstream
     <div className="pt-20 lg:pt-36  px-20 largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
+=======
+    <div className="pt-20 lg:pt-36 h-screen  px-20 largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
+>>>>>>> Stashed changes
       <div className="flex-1 max-small:w-[90vw] max-lg:w-[80vw]">
         <h2 className="text-4xl tablet:text-5xl largesceen:text-[4rem] lg:w-[70%] font-bold">{title}</h2>
         <p className="text-lg lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl pt-5 tablet:pt-10 sm:w-[80%]">{paragraph}</p>
