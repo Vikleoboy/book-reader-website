@@ -17,7 +17,8 @@ const FeatureSection = ({ img, title, paragraph }: { img: StaticImageData; title
       <div className="flex-1 max-small:w-[90vw] max-lg:w-[80vw] max-sm:mt-2 max-lg:mt-5">
         <Image src={img} alt="features image" quality={100} placeholder="blur" className="rounded-2xl lg:rounded-3xl " />
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 
