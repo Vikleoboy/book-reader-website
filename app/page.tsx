@@ -4,7 +4,7 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Goal from "@/components/Goal";
 import Footer from "@/components/Footer";
-
+import Download from "@/components/Download";
 export default function Home() {
   return (
     <main className="relative h-full">
@@ -18,6 +18,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Goal />
+      <Download />
       <Footer />
     </main>
   );

@@ -8,7 +8,7 @@ const Footer = () => {
       className="bg-neutral-200/60  pt-20 pb-36 flex flex-col justify-center items-center h-[100vh] max-sm:px-4"
       id="footer"
     >
-      <div>
+      {/* <div>
         <h3 className="text-4xl desktop:text-5xl font-bold text-gray-800 text-center mb-4">
           Download Axiom Book Reader
         </h3>
@@ -28,7 +28,7 @@ const Footer = () => {
           <FaWindows className="mr-2" size={24} />
           <span className="button-text">Download for Windows</span>
         </button>
-      </div>
+      </div> */}
       <div className="desktop:mt-2 text-center text-gray-600 pt-4 desktop:text-xl">
         <p>&copy; 2024 Axiom Books. All rights reserved.</p>
       </div>
