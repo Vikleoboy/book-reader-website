@@ -4,12 +4,18 @@ import { FaWindows } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-200/60 pt-20 pb-4 max-sm:px-4" id="footer">
-      <div>
-        <h3 className="text-4xl desktop:text-5xl font-bold text-gray-800 text-center mb-4">Download Axiom Book Reader</h3>
+    <footer
+      className="bg-neutral-200/60  pt-20 pb-36 flex flex-col justify-center items-center h-[100vh] max-sm:px-4"
+      id="footer"
+    >
+      {/* <div>
+        <h3 className="text-4xl desktop:text-5xl font-bold text-gray-800 text-center mb-4">
+          Download Axiom Book Reader
+        </h3>
         <p className="text-gray-600 text-lg desktop:text-3xl desktop:leading-normal mb-4 text-center w-[55vw] block mx-auto">
-          Step into a world of limitless stories with the Axiom Book Reader. Download now to access a vast library of books, track your reading journey, and set personalized goals—all in one seamless
-          app.
+          Step into a world of limitless stories with the Axiom Book Reader.
+          Download now to access a vast library of books, track your reading
+          journey, and set personalized goals—all in one seamless app.
         </p>
       </div>
       <div className="flex max-xs:flex-col items-center justify-center gap-6 xs:gap-2 md:gap-8 small:text-base text-xs desktop:text-lg">
@@ -22,7 +28,7 @@ const Footer = () => {
           <FaWindows className="mr-2" size={24} />
           <span className="button-text">Download for Windows</span>
         </button>
-      </div>
+      </div> */}
       <div className="desktop:mt-2 text-center text-gray-600 pt-4 desktop:text-xl">
         <p>&copy; 2024 Axiom Books. All rights reserved.</p>
       </div>
