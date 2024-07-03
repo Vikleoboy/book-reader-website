@@ -16,7 +16,10 @@ const FeatureSection = ({
   paragraph: string;
 }) => {
   return (
-    <div className="pt-20 h-[100vh] lg:pt-36  px-20 largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
+    
+    <div className="pt-20 lg:pt-36 h-screen  px-20 largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
+
+    
       <div className="flex-1 max-small:w-[90vw] max-lg:w-[80vw]">
         <h2 className="text-4xl tablet:text-5xl largesceen:text-[4rem] lg:w-[70%] font-bold">
           {title}
@@ -34,7 +37,8 @@ const FeatureSection = ({
           className="rounded-2xl lg:rounded-3xl "
         />
       </div>
-    </div>
+      </div>
+      </div>
   );
 };
 
