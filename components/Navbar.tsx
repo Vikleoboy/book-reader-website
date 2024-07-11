@@ -15,13 +15,13 @@ const Navbar = () => {
     <nav className="relative  bg-gray-100 bg-opacity-70">
       <section className="flex justify-center items-center gap-40 pt-2  w-full relative max-navsize:hidden ">
         {/* logo */}
-        <div>
+        {/* <div>
           <p>
             <a href="/" className="text-left text-xl  text-yellow">
-              Axiom
+              
             </a>
           </p>
-        </div>
+        </div> */}
 
         {/* Navlinks */}
         <div className="flex gap-x-10">
