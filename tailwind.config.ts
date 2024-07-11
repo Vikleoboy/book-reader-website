@@ -20,6 +20,15 @@ const config: Config = {
         yellow: "#FFC164",
         accentRed: "#FF5C5C",
         dark: "#000000",
+        macWindowBorder: '#d1d1d1',
+        macWindowTitleBar: '#f0f0f0',
+        macWindowClose: '#ff5f56',
+        macWindowMinimize: '#ffbd2e',
+        macWindowMaximize: '#28c840',
+      },
+
+      borderRadius: {
+        'lg': '0.5rem',
       },
     },
   },
