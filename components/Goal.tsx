@@ -14,7 +14,7 @@ const Goal = () => {
           Contribute to the Future of Reading
         </h2>
         <p className="text-center largesceen:w-[50%]  lg:w-[70%] text-gray-800  lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl py-5">
-          If you like what we're doing, please give our repo a star{" "}
+          If you like what we&apos;re doing, please give our repo a star
           <span>🌟 </span> on GitHub. Your support helps us grow and continue
           improving the app!
         </p>
