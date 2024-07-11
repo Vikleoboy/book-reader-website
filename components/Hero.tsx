@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import iconBook from "../public/icon_books_large.png";
+import iconBook from "../public/lam.png";
 import library1 from "../public/library.png";
 import { AiFillApple } from "react-icons/ai";
 import { FaWindows } from "react-icons/fa";
@@ -10,7 +10,7 @@ import { MdOutlineGetApp } from "react-icons/md";
 const Hero = () => {
   return (
     <main className=" bg-neutral-200/80 flex flex-col justify-center items-center pt-16 sm:pt-24 relative">
-      <Image src={iconBook} alt="book icon" quality={100} className="max-small:w-[35px]" />
+      <Image src={iconBook} alt="book icon" quality={100} className="max-small:w-[35px] w-[100px] rounded-lg" />
       <p className="text-black  leading-relaxed text-xl sm:text-2xl lg:text-3xl mt-2 sm:mt-3 lg:mt-4">Axiom Books</p>
       <h1 className="max-xs:text-[1.7rem] text-[2rem] small:text-[2rem] sm:text-[3.5rem] navsize:text-6xl  lg:text-7xl desktop:text-[80px] text-center   font-bold leading-tight sm:leading-[1.275] navsize:leading-[80px] lg:leading-[95px] pt-1">
         Explore, discover
