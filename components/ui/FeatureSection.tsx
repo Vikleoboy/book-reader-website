@@ -24,7 +24,7 @@ const FeatureSection = ({
         <h2 className="text-4xl tablet:text-5xl largesceen:text-[4rem] lg:w-[70%] font-bold">
           {title}
         </h2>
-        <p className="text-lg lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl pt-5 tablet:pt-10 sm:w-[80%]">
+        <p className="text-lg text-gray-600 lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl pt-5 tablet:pt-10 sm:w-[80%]">
           {paragraph}
         </p>
       </div>

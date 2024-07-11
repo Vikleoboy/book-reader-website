@@ -5,7 +5,7 @@ import { FaWindows } from "react-icons/fa6";
 const Footer = () => {
   return (
     <footer
-      className="bg-neutral-200/60  pt-20 pb-36 flex flex-col justify-center items-center h-[100vh] max-sm:px-4"
+      className="bg-neutral-200/60  pt-20 pb-36 flex flex-col justify-center items-center  max-sm:px-4"
       id="footer"
     >
       {/* <div>
