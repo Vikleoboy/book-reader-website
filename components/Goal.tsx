@@ -14,8 +14,9 @@ const Goal = () => {
           Contribute to the Future of Reading
         </h2>
         <p className="text-center largesceen:w-[50%]  lg:w-[70%] text-gray-800  lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl py-5">
-          If you like what we're doing, please give our repo a star <span>🌟  </span> on GitHub.
-          Your support helps us grow and continue improving the app!
+          If you like what we're doing, please give our repo a star{" "}
+          <span>🌟 </span> on GitHub. Your support helps us grow and continue
+          improving the app!
         </p>
 
         <div className=" flex  flex-col items-center justify-center ">
@@ -35,10 +36,17 @@ const Goal = () => {
               />
             </span>
 
-            <button className="group-hover:ms-4 flex space-x-3 items-center ">
-              <span className="  button-text">Ready to contribute?</span>
-              <span className=" text-2xl"><BsGithub /></span>
-            </button>
+            <a
+              target="_blank"
+              href="https://github.com/Vikleoboy/Epub-book-Reader/"
+            >
+              <button className="group-hover:ms-4 flex space-x-3 items-center ">
+                <span className="  button-text">Ready to contribute?</span>
+                <span className=" text-2xl">
+                  <BsGithub />
+                </span>
+              </button>
+            </a>
           </a>
         </div>
         <h2 className="font-semibold text-gray-800 text-4xl">
@@ -46,13 +54,22 @@ const Goal = () => {
         </h2>
         <div className=" pt-4 flex space-x-5">
           <p className=" text-4xl">
-            <BsTwitterX />
+            <a target="_blank" href="https://x.com/VikLeo10">
+              <BsTwitterX />
+            </a>
           </p>
           <p className=" text-4xl text-blue-800">
-            <BsDiscord />
+            <a target="_blank" href="https://discord.gg/fKqkNjYgBb">
+              <BsDiscord />
+            </a>
           </p>
           <p className=" text-4xl">
-            <BsGithub />
+            <a
+              target="_blank"
+              href="https://github.com/Vikleoboy/Epub-book-Reader/"
+            >
+              <BsGithub />
+            </a>
           </p>
         </div>
       </div>
