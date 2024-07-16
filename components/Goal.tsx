@@ -20,7 +20,7 @@ const Goal = () => {
         </p>
 
         <div className=" flex  flex-col items-center justify-center ">
-          <h2 className="font-semibold text-gray-800 text-4xl">
+          <h2 className="font-semibold text-gray-800 text-4xl text-center">
             Show Some Love! <span>❤️‍🔥</span>
           </h2>
         </div>
@@ -49,7 +49,7 @@ const Goal = () => {
             </a>
           </a>
         </div>
-        <h2 className="font-semibold text-gray-800 text-4xl">
+        <h2 className="font-semibold text-gray-800 text-4xl text-center">
           Join Our Communities
         </h2>
         <div className=" pt-4 flex space-x-5">

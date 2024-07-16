@@ -36,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <Image src={library1} alt="library page review" placeholder="blur" quality={100} className="w-[80%] md:mt-14 desktop:mt-20 rounded-t-3xl" />
+        <Image src={library1} alt="library page review" placeholder="blur" quality={100} className="w-[80%] md:mt-14 desktop:mt-20 rounded-t-xl" />
       </div>
     </main>
   );

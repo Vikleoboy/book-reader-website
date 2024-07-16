@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     // Navbar
     <nav className="relative  bg-gray-100 bg-opacity-70">
-      <section className="flex justify-center items-center gap-40 pt-2  w-full relative max-navsize:hidden ">
+      <section className="flex justify-center items-center gap-40 pt-2 pb-2  w-full relative max-navsize:hidden ">
         {/* logo */}
         {/* <div>
           <p>
@@ -22,7 +22,9 @@ const Navbar = () => {
             </a>
           </p>
         </div> */}
-
+      <div className="pl-[2rem] py-2 max-navsize:hidden z-[999]">
+        <p className="text-2xl text-left w-fit">Axiom Books</p>
+      </div>
         {/* Navlinks */}
         <div className="flex gap-x-10">
           {navItems.map((items, idx: number) => (
@@ -50,7 +52,7 @@ const Navbar = () => {
 
       {/* Mobile Nav */}
 
-      <section className="navsize:hidden flex  justify-between items-baseline pt-4 px-4 w-full  z-50">
+      <section className="navsize:hidden flex  justify-between items-baseline pt-4 pb-4 px-4 w-full  z-50">
         <div>
           <p>
             <a href="/" className="text-left text-xl  text-yellow">
