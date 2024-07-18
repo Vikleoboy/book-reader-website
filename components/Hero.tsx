@@ -12,7 +12,7 @@ const Hero = () => {
     <main className=" bg-neutral-200/80 flex flex-col justify-center items-center pt-16 sm:pt-24 relative">
       <Image src={iconBook} alt="book icon" quality={100} className="max-small:w-[35px] w-[100px] rounded-lg" />
       <p className="text-black  leading-relaxed text-xl sm:text-2xl lg:text-3xl mt-2 sm:mt-3 lg:mt-4">Axiom Books</p>
-      <h1 className="max-xs:text-[1.7rem] text-[2rem] small:text-[2rem] sm:text-[3.5rem] navsize:text-6xl  lg:text-7xl desktop:text-[80px] text-center   font-bold leading-tight sm:leading-[1.275] navsize:leading-[80px] lg:leading-[95px] pt-1">
+      <h1 className="max-xs:text-[1.4rem] text-[2rem] small:text-[2rem] sm:text-[3.5rem] navsize:text-6xl  lg:text-7xl desktop:text-[80px] text-center   font-bold leading-tight sm:leading-[1.275] navsize:leading-[80px] lg:leading-[95px] pt-1">
         Explore, discover
         <span className="block font-bold">— all in one read.</span>
       </h1>
@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="flex max-xs:flex-col items-center justify-center  small:text-base text-xs desktop:text-lg">
           <a
             href="#download"
-            className="group relative inline-flex items-center overflow-hidden button-bg rounded-xl focus:outline-none focus:ring  px-5 sm:px-10 py-2 xs:py-3 hover:scale-[1.02] focus:scale-[1.02] transition-all duration-300 max-sm:mt-2 text-white  bg-blue-600 hover:bg-blue-700 xs:mt-8">
+            className="group relative inline-flex items-center overflow-hidden button-bg rounded-xl focus:outline-none focus:ring  px-5 sm:px-10 py-2 xs:py-3 hover:scale-[1.02] focus:scale-[1.02] transition-all duration-300 max-sm:mt-2 text-white  bg-blue-600 hover:bg-blue-700 xs:mt-8 max-md:mb-10">
             <span className="absolute -start-full transition-all group-hover:start-4">
               <MdOutlineGetApp size={20} className="-rotate-90 group-hover:text-white" />
             </span>
@@ -36,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <Image src={library1} alt="library page review" placeholder="blur" quality={100} className="w-[80%] md:mt-14 desktop:mt-20 rounded-t-3xl" />
+        <Image src={library1} alt="library page review" placeholder="blur" quality={100} className="w-[80%] md:mt-14 desktop:mt-20 rounded-t-xl" />
       </div>
     </main>
   );
