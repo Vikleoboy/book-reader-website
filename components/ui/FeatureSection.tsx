@@ -17,7 +17,7 @@ const FeatureSection = ({
 }) => {
   return (
     
-    <div className="pt-20 lg:pt-36 px-20 largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
+    <div className="pt-20 lg:pt-36 px-20 h-[100vh] largesceen:px-32 gap-10 flex flex-col lg:flex-row justify-center items-center">
 
     
       <div className="flex-1 max-small:w-[90vw] max-lg:w-[80vw]">
