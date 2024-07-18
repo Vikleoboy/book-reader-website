@@ -10,7 +10,7 @@ const Goal = () => {
   return (
     <main className="bg-neutral-200/60 w-full py-16 h-[100vh] sm:py-24 flex flex-col  items-center justify-center">
       <div className="w-[80%] mb-5 flex flex-col justify-center items-center medium:mb-16 space-y-3 ">
-        <h2 className="text-4xl  tablet:text-5xl largesceen:text-[4rem] font-semibold text-gray-800 text-center  ">
+        <h2 className="max-xs:text-2xl text-4xl tablet:text-5xl largesceen:text-[3rem] font-semibold text-gray-800 text-center  ">
           Contribute to the Future of Reading
         </h2>
         <p className="text-center largesceen:w-[50%]  lg:w-[70%] text-gray-800  lg:text-sm tablet:text-base desktop:text-[1.3rem] largesceen:text-2xl py-5">
@@ -20,7 +20,7 @@ const Goal = () => {
         </p>
 
         <div className=" flex  flex-col items-center justify-center ">
-          <h2 className="font-semibold text-gray-800 text-4xl text-center">
+          <h2 className="max-xs:text-2xl font-semibold text-gray-800 text-3xl text-center">
             Show Some Love! <span>❤️‍🔥</span>
           </h2>
         </div>
@@ -49,7 +49,7 @@ const Goal = () => {
             </a>
           </a>
         </div>
-        <h2 className="font-semibold text-gray-800 text-4xl text-center">
+        <h2 className="max-xs:text-2xl font-semibold text-gray-800 text-3xl text-center">
           Join Our Communities
         </h2>
         <div className=" pt-4 flex space-x-5">

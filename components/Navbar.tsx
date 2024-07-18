@@ -43,9 +43,9 @@ const Navbar = () => {
 
         {/* Icons */}
         <div className="flex gap-x-10">
-          <a href="/Shop">
+          {/* <a href="/Shop">
             <BsBag />
-          </a>
+          </a> */}
           <SearchArea />
         </div>
       </section>
@@ -55,17 +55,17 @@ const Navbar = () => {
       <section className="navsize:hidden flex  justify-between items-baseline pt-4 pb-4 px-4 w-full  z-50">
         <div>
           <p>
-            <a href="/" className="text-left text-xl  text-yellow">
-              Axiom
+            <a href="/" className="text-left text-xl">
+             Axiom Books
             </a>
           </p>
         </div>
 
         <div className="gap-6  flex">
           <div className="flex gap-6 items-baseline h-fit">
-            <a href="/Shop" className="leading-none">
+            {/* <a href="/Shop" className="leading-none">
               <BsBag />
-            </a>
+            </a> */}
             <SearchArea />
           </div>
 
