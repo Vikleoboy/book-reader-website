@@ -8,8 +8,21 @@ const ClickPopupForm: React.FC = () => {
   const [isPopupVisible, setIsPopupVisible] = useState(false);
   const popupRef = useRef<HTMLDivElement>(null);
 
+  /*comment out the control of 'Get Early Access' form to show message instead
   const togglePopup = () => {
     setIsPopupVisible(!isPopupVisible);
+  };*/
+
+  const handleAlert = () => {
+    Swal.fire({
+      text: 'We are not ready yet.',
+      icon: 'info',
+      timer: 3000, // Auto-close after 3 seconds
+      timerProgressBar: false, // Optional: Shows a progress bar indicating the remaining time
+      showCloseButton: true, // Shows the close button (X) in the top right corner
+      showConfirmButton: false, // Hides the confirm button
+      width: '50%' 
+    });
   };
 
   const handleClickOutside = (event: MouseEvent) => {
@@ -41,23 +54,31 @@ const ClickPopupForm: React.FC = () => {
 
     <div className="relative inline-block w-full ">
       <div className="flex max-xs:flex-col  items-center justify-center gap-6 xs:gap-2 md:gap-8 small:text-base text-xs desktop:text-lg w-full">
+        {/*coment the button tag which handle the form, show the message instead*/}
+        {/* <button
+          className="flex items-center px-5 sm:px-6 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition-all duration-300 focus:outline-none mt-8 hover:scale-[1.02] focus:scale-[1.02] hover:blur-[0.3px] outline-none"
+          onClick={togglePopup}> */}
         <button
           className="flex items-center px-5 sm:px-6 py-2 bg-orange-500 text-white rounded-lg shadow-md hover:bg-orange-600 transition-all duration-300 focus:outline-none mt-8 hover:scale-[1.02] focus:scale-[1.02] hover:blur-[0.3px] outline-none"
-          onClick={togglePopup}>
+          onClick={handleAlert}>
           <AiFillApple className="mr-2" size={24} />
           <span className="button-text">Download for iOS</span>
         </button>
 
+        {/*coment the button tag which handle the form, show the message instead*/}
+        {/* <button
+          className="flex items-center px-5 sm:px-6 py-2 text-white rounded-lg   shadow-md bg-blue-500 hover:bg-blue-600 transition-all duration-300 focus:outline-none xs:mt-8 hover:scale-[1.02] focus:scale-[1.02] hover:blur-[0.3px] outline-none"
+          onClick={togglePopup}> */}
         <button
           className="flex items-center px-5 sm:px-6 py-2 text-white rounded-lg   shadow-md bg-blue-500 hover:bg-blue-600 transition-all duration-300 focus:outline-none xs:mt-8 hover:scale-[1.02] focus:scale-[1.02] hover:blur-[0.3px] outline-none"
-          onClick={togglePopup}>
+          onClick={handleAlert}>
           <FaWindows className="mr-2" size={24} />
           <span className="button-text">Download for Windows</span>
         </button>
       </div>
 
 
-
+      {/*This part will show the Form on above button clicks in case isPopupVisible is true only*/}
       {isPopupVisible && (
         <div className=" absolute top-0 left-[50%]">
           <div ref={popupRef} className="relative top-0 left-[-55%]  flex flex-col items-start w-full bg-white border p-10 border-macWindowBorder rounded-lg shadow-md ">
